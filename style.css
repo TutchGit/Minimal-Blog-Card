@@ -1,0 +1,67 @@
+body {
+  background-color: #fafaf9;
+}
+
+#Card {
+  font-family: "Sora", sans-serif;
+  background-color: #ffffff;
+  width: 350px;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+#CardElement {
+  padding: 15px;
+}
+
+#ImageContainer img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#Tag {
+  color: #883ae1;
+  background-color: #e6d6fc;
+
+  text-align: center;
+  font-size: 0.625rem;
+  font-weight: bold;
+
+  height: auto;
+  width: 70px;
+  padding: 5px 0;
+
+  border-radius: 50px;
+}
+
+#CardMainTitle {
+  font-size: 1.125rem;
+}
+
+#CardText {
+  font-size: 0.875rem;
+  color: #6c727f;
+}
+
+#CardAuthor {
+  font-size: 0.75rem;
+  color: #6c727f;
+
+  padding: 20px;
+  margin: 0;
+  border-top: 1px solid #e5eaf0;
+}
+
+@media screen and (max-width: 425px) {
+  #Card {
+    width: 80%;
+  }
+}
